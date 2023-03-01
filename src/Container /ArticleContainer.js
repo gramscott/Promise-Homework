@@ -36,7 +36,7 @@ const ArticleContainer = () => {
 
     return (
         <div>
-            <h1>Articles</h1>
+            <h1>Hacker News</h1>
             <FilteredArticles filterData={filterData}/>
                 <ArticleList articles={filteredArticles}/>
         </div>
